@@ -1,0 +1,148 @@
+.jumbotron {
+	background-color: #008000;
+	color: #ffffff;
+	padding: 100px 25px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.container-fluid {
+padding: 40px 50px;
+}
+.bg-grey {
+background-color: #DCDCDC;
+}
+.panel {
+border: 1px solid #EDC45B;
+}
+.panel:hover {
+box-shadow: 3px 7px 30px #008000;
+	transform: scale(1.25);
+
+}
+.equipo .panel-heading {
+    color: #fff;
+    background-color: #F7780F;
+    padding: 25px;
+    border-bottom: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: #EDC45B;
+}
+.panel-footer h4 {
+    color: #0C32F5;
+    font-size: 15px;
+}
+@media screen and (min-width:320px) {
+	img {
+		max-width:100%;
+	}
+}
+@media screen and (min-width:768px) {
+	img {
+		max-width:150px;
+	}
+}
+@media screen and (min-width:980px) {
+	img {
+		max-width:225px;
+	}
+}
+@media screen and (min-width:1200px) {
+	img {
+		max-width:300px;
+	}
+}
+.icono {
+	color: #008000;
+	font-size: 20px;
+}
+.menu {
+background-color: black;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+color: yellow;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: black;
+    background-color: yellow;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #2560E9;
+}
+body
+{
+ margin: 0;
+	padding: 0;
+}
+h2
+{
+color: white;
+	background-color: black;
+	font-size:25px;
+	text-align: center;
+}
+h4
+{
+	color: green;
+	font-size: 20px;
+}
+p{
+	font-size: 15px;
+}
+.box{
+	position: relative;
+	width:150px;
+	height: 150px;
+	background: green;
+}
+.content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: grid;
+	align-items:flex-start;
+	color: #fff;
+	padding: 20px;
+	font-family: Consolas;
+	text-align:justify;
+}
+.box img
+{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+	transition: 1s;
+}
+.box img:hover
+{
+-webkit-clip-path: polygon(0 100%, 100% 100%, 0 100%, 0 0);
+clip-path: polygon(0 100%, 100% 100%, 0 100%, 0 0);
+}
+.content p
+{
+	font-size: 10px;
+}
+.content h3
+{
+	font-size: 15px;
+	color: yellow;
+}
